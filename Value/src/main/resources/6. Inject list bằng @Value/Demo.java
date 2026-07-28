@@ -16,7 +16,7 @@ public class ValueDemoController {
         System.out.println("Roles: " + roles);
         
         return String.format(
-            "Name: %s | Description: %s | Roles: %s | Port: %d",
+            "Roles: %s",
             roles
         );
     }
