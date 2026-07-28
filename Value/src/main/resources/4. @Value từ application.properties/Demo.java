@@ -8,8 +8,6 @@ import java.util.List;
 
 @RestController
 public class ValueDemoController {
-
-    // Bài 4: Inject app.name
     @Value("${app.name}")
     private String appName;
 
