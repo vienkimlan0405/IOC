@@ -1,4 +1,0 @@
-app.name=DemoApp
-app.roles=ADMIN,USER,GUEST
-app.port=8080
-feature=true (Dùng cho bài 9)
