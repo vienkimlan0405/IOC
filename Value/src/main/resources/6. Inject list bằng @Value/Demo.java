@@ -13,7 +13,7 @@ public class ValueDemoController {
 
     @GetMapping("/value-demo")
     public String getValueDemo() {
-        System.out.println("App Port: " + appPort);
+        System.out.println("Roles: " + roles);
         
         return String.format(
             "Name: %s | Description: %s | Roles: %s | Port: %d",
