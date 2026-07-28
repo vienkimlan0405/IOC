@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 public class ValueDemoController {
-    // Bài 5: Giá trị mặc định nếu không khai báo config
     @Value("${app.description:Default Description}")
     private String appDescription;
 
