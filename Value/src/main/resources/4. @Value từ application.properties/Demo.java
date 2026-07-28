@@ -13,11 +13,11 @@ public class ValueDemoController {
 
     @GetMapping("/value-demo")
     public String getValueDemo() {
-        System.out.println("App Port: " + appPort);
+        System.out.println("App Name: " + appName);
         
         return String.format(
             "Name: %s | Description: %s | Roles: %s | Port: %d",
-            appName, appDescription, roles, appPort
+            appName
         );
     }
 }
