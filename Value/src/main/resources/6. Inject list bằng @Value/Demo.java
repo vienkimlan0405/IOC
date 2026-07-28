@@ -17,7 +17,7 @@ public class ValueDemoController {
         
         return String.format(
             "Name: %s | Description: %s | Roles: %s | Port: %d",
-            appName, appDescription, roles, appPort
+            roles
         );
     }
 }
